@@ -41,10 +41,10 @@ def main():
     print_result(counts)
 
 
-def print_result(winner_counts):
-    for team in sorted(winner_counts, key=lambda team: winner_counts[team], reverse=True):
+def print_result(counts):
+    for team in sorted(counts, key=lambda team: counts[team], reverse=True):
         print(
-            f"{team}: {winner_counts[team] * 100 / N:.1f}% chance of winning")
+            f"{team}: {counts[team] * 100 / N:.1f}% chance of winning")
 
 
 def simulate_game(team1, team2):
