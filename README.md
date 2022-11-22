@@ -7,7 +7,7 @@ A simple program in Python that runs simulations of the FIFA World Cup.
 * This information is used to calculate which team has more chance to win a match in a tournament simulation
 * To run:
 `python tournament.py [filename]`
-* You can find two .csv examples with 2018 data, so you can run to obtain an approximate result(since the result of each match have some randomness) as shown below
+* You can find two .csv examples with 2018 data, so you can run to obtain a result as shown below:
 
 ```
 $ python tournament.py 2018m.csv
@@ -26,7 +26,7 @@ Sweden: 0.5% chance of winning
 Uruguay: 0.1% chance of winning
 Mexico: 0.1% chance of winning
 ```
-
+PS: The numbers above can be slightly different, since there is a randomness component in each match result
 # Credits
 * Functions below were developed by CS50 Staff:
 * print_result, simulate_game, simulate_round
